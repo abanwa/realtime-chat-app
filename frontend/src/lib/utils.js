@@ -5,3 +5,6 @@ export function formatMessageTime(date) {
     hour12: false,
   });
 }
+
+
+export const frontEndBaseURL = import.meta.env.VITE_BASE_URL_FRONTEND;
