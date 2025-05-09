@@ -7,4 +7,4 @@ export function formatMessageTime(date) {
 }
 
 
-export const frontEndBaseURL = import.meta.env.VITE_BASE_URL_FRONTEND;
+export const backEndBaseURL = import.meta.env.VITE_BASE_URL_BACKEND;

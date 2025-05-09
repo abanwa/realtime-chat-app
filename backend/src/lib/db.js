@@ -13,5 +13,6 @@ export const connectDB = async () => {
     console.log(`Using Database: ${mongoose.connection.db.databaseName}`); // Verify DB name
   } catch (error) {
     console.log("MongoDB connection error:", error);
+    process.exit(1); // Exit with failure
   }
 };
